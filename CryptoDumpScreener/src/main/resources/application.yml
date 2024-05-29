@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: dump-screener
+  main:
+    banner-mode: off
+screener:
+  stableCoins: USDT,USDC
+  cexes: BINANCE,KUCOIN,GATE,OKX,BITMART,HUOBI
+  networks: ETHEREUM
+  volume24h: 100000
+  marketCap: 100000
+  liquidity: 100000
+  metadataUpdateRateSec: 86400
+  screeningRateSec: 20
+  initialDelaySec: 20
+  cryptoCompare:
+    apiKey: ${CRYPTO_COMPARE_API_KEY}
+  coingecko:
+    apiKey: ${COIN_GECKO_API_KEY}
+  oneinch:
+    apiKey: ${ONE_INCH_API_KEY}
+  rules:
+    - timeWindowSec: 40
+      triggerPercentage: 10
+    - timeWindowSec: 60
+      triggerPercentage: 15
+    - timeWindowSec: 600
+      triggerPercentage: 30
+
+telegram:
+  apiToken: ${TELEGRAM_BOT_TOKEN}
+  notificationChatId: ${TELEGRAM_NOTIFICATION_CHANNEL_ID}
