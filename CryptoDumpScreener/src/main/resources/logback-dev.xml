@@ -29,7 +29,7 @@
     <logger name="org.springframework" level="info"/>
     <logger name="org.apache.http" level="warn"/>
     <logger name="io.netty" level="warn"/>
-    <logger name="trade.shark" level="debug" additivity="false">
+    <logger name="trade.kuharchuk" level="debug" additivity="false">
         <appender-ref ref="console"/>
         <appender-ref ref="FILE_TRACE"/>
     </logger>

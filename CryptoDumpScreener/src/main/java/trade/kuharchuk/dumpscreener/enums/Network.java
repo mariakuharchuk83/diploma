@@ -2,7 +2,7 @@ package trade.kuharchuk.dumpscreener.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import trade.wayruha.oneinch.Chain;
+import trade.kuharchuk.oneinch.Chain;
 
 import java.util.stream.Stream;
 

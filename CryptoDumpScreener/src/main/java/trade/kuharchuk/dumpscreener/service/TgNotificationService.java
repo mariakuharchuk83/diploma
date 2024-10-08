@@ -46,13 +46,13 @@ public class TgNotificationService {
 
   public void sendNotifications(DumpSignalEvent event) {
     final String text = toTgDisplayText(event);
-    //sendNotification(text);
+    sendNotification(text);
     System.out.println(text);
   }
 
   public void sendNotification(String text) {
     try {
-      //telegram.sendNotification(text, true);
+      telegram.sendNotification(text, true);
       System.out.println(text);
     } catch (Exception ex) {
       throw new NotificationException(ex);

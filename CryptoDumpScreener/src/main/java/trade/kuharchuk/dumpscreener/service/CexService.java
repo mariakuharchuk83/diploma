@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import trade.kuharchuk.dumpscreener.domain.Token;
 import trade.kuharchuk.dumpscreener.domain.TradePair;
 import trade.kuharchuk.dumpscreener.enums.CentralizedExchange;
-import trade.wayruha.cryptocompare.response.SpotInstrumentLatestTick;
-import trade.wayruha.cryptocompare.service.SpotDataService;
+import trade.kuharchuk.cryptocompare.response.SpotInstrumentLatestTick;
+import trade.kuharchuk.cryptocompare.service.SpotDataService;
 
 import java.math.BigDecimal;
 import java.util.Collection;

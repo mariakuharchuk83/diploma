@@ -10,7 +10,7 @@ import trade.kuharchuk.dumpscreener.domain.Token;
 import trade.kuharchuk.dumpscreener.event.DumpSignalEvent;
 import trade.kuharchuk.dumpscreener.enums.Network;
 import trade.kuharchuk.dumpscreener.util.MathUtil;
-import trade.wayruha.oneinch.service.SpotService;
+import trade.kuharchuk.oneinch.service.SpotService;
 
 import java.math.BigDecimal;
 import java.time.Duration;

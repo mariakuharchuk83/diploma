@@ -33,7 +33,7 @@
         <appender-ref ref="console"/>
     </logger>
     <logger name="trade.kuharchuk.dumpscreener.service.TelegramClient" level="info"/>
-    <logger name="trade.shark" level="debug" additivity="false">
+    <logger name="trade.kuharchuk" level="debug" additivity="false">
         <appender-ref ref="FILE_TRACE"/>
     </logger>
     <root level="info">

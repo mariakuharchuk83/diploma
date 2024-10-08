@@ -8,12 +8,12 @@ import com.litesoftwares.coingecko.impl.CoinGeckoApiClientImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
-import trade.wayruha.cryptocompare.CryptoCompareParams;
-import trade.wayruha.cryptocompare.client.CryptoCompareClient;
-import trade.wayruha.cryptocompare.service.AssetDataService;
-import trade.wayruha.cryptocompare.service.SpotDataService;
-import trade.wayruha.oneinch.OneInchParams;
-import trade.wayruha.oneinch.service.SpotService;
+import trade.kuharchuk.cryptocompare.CryptoCompareParams;
+import trade.kuharchuk.cryptocompare.client.CryptoCompareClient;
+import trade.kuharchuk.cryptocompare.service.AssetDataService;
+import trade.kuharchuk.cryptocompare.service.SpotDataService;
+import trade.kuharchuk.oneinch.OneInchParams;
+import trade.kuharchuk.oneinch.service.SpotService;
 
 import java.math.MathContext;
 import java.math.RoundingMode;
